@@ -176,7 +176,7 @@ const HomePage = () => {
     return (
         <React.Fragment>
             <Helmet>
-                <title>Ser[ce] Wielkopolski - 100% naturalny nabiał | Zamów z dostawą do domu!</title>
+                <title>Jajka prosto od kury z wolnego wybiegu - 100% naturalne | Zamów z dostawą do domu!</title>
                 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"/>
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"/>
                 <link rel="icon" href="/images/logo/32x32.jpg" size="32x32"/>
@@ -190,7 +190,7 @@ const HomePage = () => {
                     <Background style={{background: "url(/images/hero-background.jpg) center/cover no-repeat"}}/>
                     <HeroContentGrid>
                         <HeroHeading>
-                            Zmieniamy <span style={{color: color.amber(500)}}>się</span> na lepsze
+                            Zmieniamy <span style={{color: color.yellow(300)}}>się</span> na lepsze
                         </HeroHeading>
                         <HeroButtonGroup>
                             <ContactButton
@@ -199,14 +199,14 @@ const HomePage = () => {
                                 label="536 296 895"/>
                             <ContactButton
                                 alt="Facebook"
-                                url="https://www.facebook.com/sercewielkopolski/"
+                                url="https://www.facebook.com/jajkaodkury"
                                 image="/images/social/facebook.png"
-                                label="@sercewielkopolski"/>
+                                label="@jajkaodkury"/>
                             <ContactButton
                                 alt="Instagram"
-                                url="https://www.instagram.com/ser_ce_wielkopolski/"
+                                url="https://www.instagram.com/jajka_od_kury/"
                                 image="/images/social/instagram.png"
-                                label="@ser_ce_wielkopolski"/>
+                                label="@jajka_od_kury"/>
                         </HeroButtonGroup>
                     </HeroContentGrid>
                     <ScrollDownButton onClick={scrollToZoneMap}>
@@ -221,22 +221,22 @@ const HomePage = () => {
                         <ZoneRate
                             value="1 zł"
                             label="Koszt dostawy"
-                            color={color.amber(500)}/>
+                            color={color.yellow(300)}/>
                         <ZoneRate
                             value="10 zł"
                             label={"Minimalna wartość\nzamówienia"}
-                            color={color.amber(500)}/>
+                            color={color.yellow(300)}/>
                         <ZoneRatesSeparator/>
                         <ZoneRate
                             value="10 zł"
                             label="Koszt dostawy"
-                            color={color.amber(700)}/>
+                            color={color.yellow(600)}/>
                         <ZoneRate
                             value="100 zł"
                             label={"Minimalna wartość\nzamówienia"}
-                            color={color.amber(700)}/>
+                            color={color.yellow(600)}/>
                     </ZoneRatesGrid>
-                    <ZoneRatesMap src="/images/delivery-map.png" alt="Mapa stref dostaw"/>
+                    <ZoneRatesMap src="/images/delivery-map.svg" alt="Mapa stref dostaw"/>
                 </ZoneMapGrid>
                 <Section>
                     <Background style={{backgroundColor: color.gray(50)}}/>
@@ -246,7 +246,7 @@ const HomePage = () => {
                             text="Dostawy realizujemy własnym transportem w wyznaczonych strefach dostaw w godzinach:"
                             title="Dostawy"
                             timeFrame="06:00 - 22:00"
-                            activeWeekDays={["PN", "ŚR"]}/>
+                            activeWeekDays={["PN", "ŚR", "PT"]}/>
                         <OrderDetails
                             icon="support_agent"
                             text="Zamówienia przyjmujemy telefonicznie lub poprzez komunikator Facebook Messenger® w godzinach:"
@@ -256,14 +256,14 @@ const HomePage = () => {
                     </OrderDetailsGrid>
                 </Section>
                 <ZoneCitiesGrid>
-                    <ZoneCities label="Strefa 1" indicator={color.amber(500)} cities="Poznań, Babki, Borówiec, Czapury, Dachowa, Daszewice, Gądki, Jaryszki, Kamionki,
+                    <ZoneCities label="Strefa 1" indicator={color.yellow(300)} cities="Poznań, Babki, Borówiec, Czapury, Dachowa, Daszewice, Gądki, Jaryszki, Kamionki,
                             Koninko, Robakowo, Skrzynki, Szczytniki, Wiórek, Baranowo, Bogucin, Chyby, Dąbrówka, Dopiewiec,
                             Dopiewo, Garby, Głuchowo, Gołuski, Gowarzewo, Jasin, Jelonek, Kiekrz, Komorniki, Koziegłowy,
                             Kórnik, Kruszewnia, Luboń, Łęczyca, Palędzie, Plewiska, Przeźmierowo, Puszczykowo, Rabowice,
                             Rogalinek, Rosnowo, Sasinowo, Skórzewo, Suchy Las, Swadzim, Swarzędz, Szewce, Tanibórz, Tulce,
                             Wiry, Wysogotowo, Zalasewo, Złotniki, Żerniki, Cerekwica, Napachanie, Mrowino, Rokietnica,
                             Tarnowo Podgórne."/>
-                    <ZoneCities label="Strefa 2" indicator={color.amber(700)} cities="Stęszew, Zaniemyśl, Środa wlkp, Kostrzyn wlkp, Jeziory małe, Jeziory wielkie,
+                    <ZoneCities label="Strefa 2" indicator={color.yellow(600)} cities="Stęszew, Zaniemyśl, Środa wlkp, Kostrzyn wlkp, Jeziory małe, Jeziory wielkie,
                             Topola, Zmysłowo, Urniszewo, Kleszczewo, Paczkowo, Siekierki Wielkie, Siekierki Małe, Trzek,
                             Kobylnica, Gruszczyn, Bugaj, Krzyszkowo, Przecławek, Pamiątkowo."/>
                 </ZoneCitiesGrid>

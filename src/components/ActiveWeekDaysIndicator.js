@@ -14,7 +14,7 @@ const Container = Styled.div`
 `;
 
 const Day = Styled.span`
-    color: ${color.white()};
+    color: ${props => props.active ? color.black() : color.white()};
     height: 2rem;
     display: grid;
     font-size: 0.75rem;
@@ -22,7 +22,7 @@ const Day = Styled.span`
     line-height: 1rem;
     align-items: center;
     justify-items: center;
-    background-color: ${props => props.active ? color.amber(500) : color.amber(100)};
+    background-color: ${props => props.active ? color.yellow(300) : color.yellow(100)};
 `;
 
 const days = {

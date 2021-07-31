@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  Kod źródłowy strony internetowej <a href="https://www.sercewielkopolski.pl">sercewielkopolski.pl</a>
+  Kod źródłowy strony internetowej <a href="https://www.jajkaodkury.pl">jajkaodkury.pl</a>
 </p>
 <p align="center">
   <a href="https://www.tenbajt.pl">
