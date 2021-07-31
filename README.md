@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   <a href="https://www.tenbajt.pl">
     <img alt="Tenbajt" src="https://www.tenbajt.pl/images/github-logo.svg" height="60" />
@@ -11,3 +12,6 @@
     <img alt="Zamów własny projekt" src="https://www.gatsbyjs.com/deploynow.svg"/>
   </a>
 </p>
+=======
+# jajkaodkury.pl
+>>>>>>> bbeeb5a9e0559bf401ca8c568df09b8ce8845e9c
