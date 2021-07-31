@@ -1,0 +1,1 @@
+# jajkaodkury.pl
